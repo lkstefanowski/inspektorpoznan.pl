@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+	.logo {
+		margin-left: 1em;
+		font-size: 3rem;
+	}
+	.nav-container {
+		.wrapper {
+			height: 80px;
+		}
+	}
+
+	.nav__list-mobile {
+		&:first-child {
+			margin-top: 40px;
+		}
+		.nav__link {
+			font-size: 4rem;
+			margin: 0.5em;
+		}
+	}
+
+	.hamburger {
+		transform: scale(1.2);
+	}
+
+	.header {
+		margin-top: 80px;
+		height: 300px;
+	}
+
+	.header__text {
+		h1 {
+			font-size: 3rem;
+		}
+	}
+	.section-title {
+		font-size: 3rem;
+		&::before {
+			height: 4px;
+			width: 100px;
+		}
+	}
+
+	.features-box {
+		margin: 4em 0 4em 0;
+		font-size: 1.4rem;
+		column-gap: 40px;
+		row-gap: 30px;
+	}
+	.feature {
+		margin: 0.5em;
+		.feature__title {
+			width: 200px;
+		}
+		.feature__description {
+			width: 200px;
+		}
+		img {
+			height: 100px;
+			filter: drop-shadow(5px 5px 2px $main-color);
+			fill: $main-color;
+		}
+	}
+	.what-check {
+		.section-info {
+			font-size: 1.5rem;
+			margin: 1.5em 1em;
+		}
+		&__items-conteiner {
+			
+			row-gap: 30px;
+			column-gap: 30px;
+			margin: 3em 3em;
+			
+		}
+		&__item {
+			height: 200px;
+			width: 150px;
+			font-size: 1.8rem;
+		}
+		&__item-text {
+			padding: 1em 0.5em;
+		}
+		&__list {
+			font-size: 1.3rem;
+			padding: 0.5em 2em;
+		}
+	}
+	.prices{
+		.wrapper{
+			flex-direction: row;
+		}
+	}
+}

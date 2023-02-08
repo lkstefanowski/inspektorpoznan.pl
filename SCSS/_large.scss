@@ -1,0 +1,122 @@
+@media (min-width: 992px) {
+	// HEADER
+
+	.nav__list-desktop {
+		display: flex;
+	}
+	.nav__list-mobile {
+		&.active {
+			display: none;
+		}
+	}
+	.hamburger {
+		display: none;
+	}
+
+	.header__text {
+		h1 {
+			font-size: 3.4rem;
+		}
+	}
+	.features-box {
+		max-width: 1300px;
+		margin: 5em auto;
+		font-size: 1.5rem;
+		column-gap: 58px;
+		row-gap: 30px;
+	}
+	.feature {
+		margin: 0.5em;
+		.feature__title {
+			width: 270px;
+		}
+
+		.feature__description {
+			width: 270px;
+		}
+		img {
+			height: 100px;
+			filter: drop-shadow(5px 5px 2px $main-color);
+			fill: $main-color;
+		}
+	}
+	.offer {
+		position: relative;
+		height: 100%;
+		width: 100%;
+		background-image: url('../img/buidling_flats.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: 0;
+		&::before {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			background-color: rgba(0, 0, 0, 0.8);
+			z-index: 1;
+			content: '';
+		}
+	}
+
+	.offer-text {
+		.offer-text__heading {
+			font-size: 2.5rem;
+			font-weight: normal;
+			margin: 0em 50px;
+		}
+		.offer-text__description {
+			font-size: 2rem;
+			line-height: 1.6em;
+			margin: 1em 50px 3em 50px;
+		}
+	}
+
+	.what-check {
+		.section-info {
+			font-size: 2rem;
+			margin: 1.5em 1em;
+		}
+		&__items-conteiner {
+			
+			row-gap: 50px;
+			column-gap: 65px;
+			margin: 3em 3em;
+		}
+		&__item {
+			height: 270px;
+			width: 220px;
+			font-size: 1.8rem;
+		}
+		&__item-text {
+			padding: 1em 0.5em;
+		}
+		&__list {
+			font-size: 1.6rem;
+			padding: 0.5em 2em;
+		}
+	}
+
+	.price-card {
+		flex-direction: column;
+		align-self: center;
+		height: 400px;
+		width: 300px;
+		margin: 4em 3em;
+		h3 {
+			font-size: 2rem;
+		}
+		&__list {
+			font-size: 1.5rem;
+			li {
+				padding: 0.5em 0;
+			}
+		}
+		&__cost {
+			font-size: 2rem;
+		}
+	}
+}

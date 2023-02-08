@@ -1,0 +1,25 @@
+@media (min-width: 992px) and (max-width: 1152px) {
+	.what-check {
+		&__items-conteiner {
+			column-gap: 50px;
+			margin: 3em 1em;
+		}
+		&__item {
+			height: 250px;
+			width: 200px;
+		}
+	}
+}
+
+@media (min-width: 885px) and (max-width: 992px) {
+	.what-check {
+		&__items-conteiner {
+			column-gap: 30px;
+			margin: 3em 3em;
+		}
+		&__item {
+			height: 220px;
+			width: 180px;
+		}
+	}
+}
