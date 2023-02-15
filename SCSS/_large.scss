@@ -18,9 +18,13 @@
 			font-size: 3.4rem;
 		}
 	}
+	.section-info {
+		font-size: 1.8rem;
+		margin: 1.5em 1em;
+	}
 	.features-box {
 		max-width: 1300px;
-		margin: 5em auto;
+		margin: 3em auto;
 		font-size: 1.5rem;
 		column-gap: 58px;
 		row-gap: 30px;
@@ -76,10 +80,7 @@
 	}
 
 	.what-check {
-		.section-info {
-			font-size: 2rem;
-			margin: 1.5em 1em;
-		}
+	
 		&__items-conteiner {
 			
 			row-gap: 50px;
@@ -101,21 +102,23 @@
 	}
 
 	.price-card {
-		flex-direction: column;
-		align-self: center;
 		height: 400px;
-		width: 300px;
-		margin: 4em 3em;
+		width: 270px;
+		margin: 4em 2em;
 		h3 {
 			font-size: 2rem;
 		}
 		&__list {
 			font-size: 1.5rem;
-			li {
-				padding: 0.5em 0;
-			}
 		}
 		&__cost {
+			font-size: 2rem;
+		}
+	}
+	.contact {
+	
+		&__data {
+		flex-direction: row;
 			font-size: 2rem;
 		}
 	}

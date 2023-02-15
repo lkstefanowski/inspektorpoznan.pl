@@ -1,12 +1,16 @@
 @media (min-width: 350px) {
 		.logo {
-
 			font-size: 2rem;
 		}
 		.prices{
 			.wrapper{
 				flex-direction: row;
 				flex-wrap: wrap;
+			}
+		}
+		.what-check {
+			&__items-conteiner {
+			margin: 3em 2em;
 			}
 		}
 }

@@ -41,6 +41,11 @@
 		}
 	}
 
+	.section-info {
+		font-size: 1.6rem;
+		margin: 1.5em 1em;
+	}
+
 	.features-box {
 		margin: 4em 0 4em 0;
 		font-size: 1.4rem;
@@ -62,10 +67,7 @@
 		}
 	}
 	.what-check {
-		.section-info {
-			font-size: 1.5rem;
-			margin: 1.5em 1em;
-		}
+		
 		&__items-conteiner {
 			
 			row-gap: 30px;
@@ -89,6 +91,14 @@
 	.prices{
 		.wrapper{
 			flex-direction: row;
+		}
+	}
+	.contact {
+	
+		&__data {
+		
+			font-size: 1.8rem;
+		
 		}
 	}
 }
