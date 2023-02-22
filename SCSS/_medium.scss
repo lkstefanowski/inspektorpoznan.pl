@@ -1,13 +1,13 @@
 @media (min-width: 768px) {
+	html{
+		scroll-padding-top: 80px;
+	}
 	.logo {
 		margin-left: 1em;
 		font-size: 3rem;
 	}
-	.nav-container {
-		.wrapper {
-			height: 80px;
-		}
-	}
+
+	// NAV
 
 	.nav__list-mobile {
 		&:first-child {
@@ -22,10 +22,16 @@
 	.hamburger {
 		transform: scale(1.2);
 	}
+	.nav-container {
+		.wrapper {
+			height: 80px;
+		}
+	}
 
 	.header {
 		margin-top: 80px;
 		height: 300px;
+		background-image: url('../img/concrete_1920.jpg');
 	}
 
 	.header__text {
@@ -47,10 +53,10 @@
 	}
 
 	.features-box {
-		margin: 4em 0 4em 0;
-		font-size: 1.4rem;
 		column-gap: 40px;
 		row-gap: 30px;
+		margin: 4em 0 4em 0;
+		font-size: 1.4rem;
 	}
 	.feature {
 		margin: 0.5em;
@@ -66,14 +72,16 @@
 			fill: $main-color;
 		}
 	}
-	.what-check {
-		
+
+	.offer{
+		background-image: url('../img/block_1920.jpg');
+	}
+
+	.what-check {	
 		&__items-conteiner {
-			
 			row-gap: 30px;
 			column-gap: 30px;
 			margin: 3em 3em;
-			
 		}
 		&__item {
 			height: 200px;
@@ -89,16 +97,18 @@
 		}
 	}
 	.prices{
+			background-image: url('../img/concrete_1920.jpg');
 		.wrapper{
 			flex-direction: row;
 		}
 	}
 	.contact {
-	
 		&__data {
-		
-			font-size: 1.8rem;
-		
+			font-size: 2rem;
 		}
+	}
+	.footer{
+		font-size: 2rem;
+		height: 70px;
 	}
 }
