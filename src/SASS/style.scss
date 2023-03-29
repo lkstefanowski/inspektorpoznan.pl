@@ -355,6 +355,9 @@ body {
 		&:hover span {
 			opacity: 0;
 		}
+		&:hover .icon-tabler.invisible{
+			opacity: 0;
+		}
 		&-text {
 			position: absolute;
 			display: flex;
@@ -417,9 +420,6 @@ body {
 			transition: 0.5s linear;
 			&.invisible {
 				opacity: 1;
-				&:hover {
-					opacity: 0;
-				}
 			}
 		}
 	}
